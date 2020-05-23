@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+.wrapper {
+    padding: 0 4%;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+body {
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    color: #000;
+}
+
+header {
+    padding: 10px 0px;
+    margin-bottom: 100px;
+}
+
+.header-bar {
+    background: #000;
+    padding: 2px 0px;
+    width: 100%;
+}
+
+.page-header {
+    height: 100px;
+}
+
+.page-header h1 {
+    text-align: center;
+    color: #000;
+    font-size: 38px;
+    font-family: serif;
+}
+
+.main-nav {
+    margin: 0 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav li {
+    list-style: none;
+
+}
+
+.main-nav a {
+    color: #000;
+    text-align: center;
+}
+.main-nav a:hover {
+    color: #666;
+}
+
+/*メイン記事の部分*/
+article {
+    margin-top: 40px;
+}
+.article-post h3{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.article-post p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.article-post img {
+    object-fit: cover;
+}
+
+.main-artile h2 {
+    font-weight: normal;
+    font-family: serif;
+    text-align: center;
+}
+/*camera.htmlのarticle*/
+.article-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-title {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px #000 solid;
+}
+.sub-list {
+    text-align: center;
+    list-style: none;
+}
+/*旅行*/
+.travel-article {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+.item p {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 15px;
+    color: #fff;
+}
