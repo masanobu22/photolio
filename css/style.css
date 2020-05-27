@@ -1,131 +1,163 @@
 @charset "UTF-8";
 
-html {
-    font-size: 100%;
-}
-
-.wrapper {
-    padding: 0 4%;
-    margin: 0 auto;
-    max-width: 1200px
-}
-
-body {
-    line-height: 1.7;
-}
-
 a {
     text-decoration: none;
 }
-
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
-body {
-    color: #000;
+html {
+    font-size: 100%;
 }
-
-header {
-    padding: 10px 0px;
-    margin-bottom: 100px;
+#top-header a:hover {
+    color: #ccc;
 }
-
 .header-bar {
+    padding: 2px;
     background: #000;
-    padding: 2px 0px;
-    width: 100%;
 }
-
-.page-header {
-    height: 100px;
-}
-
-.page-header h1 {
+.top-logo {
     text-align: center;
-    color: #000;
-    font-size: 38px;
+}
+.top-logo h1 {
+    font-size: 56px;
     font-family: serif;
-}
-
-.main-nav {
-    margin: 0 25%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-nav li {
-    list-style: none;
-
-}
-
-.main-nav a {
     color: #000;
-    text-align: center;
 }
-.main-nav a:hover {
-    color: #666;
+.article-post {
+    
+    
 }
-
-/*メイン記事の部分*/
-article {
-    margin-top: 40px;
-}
-.article-post h3{
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-}
-.article-post p {
-    font-size: 0.9rem;
-    text-align: center;
-}
-
 .article-post img {
+    height: 500px;
+    width: 100%;
     object-fit: cover;
 }
 
-.main-artile h2 {
-    font-weight: normal;
-    font-family: serif;
-    text-align: center;
-}
-/*camera.htmlのarticle*/
-.article-post {
+#top-nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 40%;
+    padding: 10px 30px;
+}
+#top-nav li {
+    color: #000;
+    list-style: none;
+    font-family: serif;
+    font-size: 18px;
+    border-bottom: 2px #ffe0b6 solid;
+}
+#top-nav a {
+    color: #000;
 }
 
+.article-post {
+    text-align: center;
+    margin-top: 45px;
+    
+}
+.article-post h2 {
+    font-size: 28px;
+    font-weight: none;
+}
+.article-post p {
+    line-height: 3;
+}
+#sub-post {
+    height: 450px;
+    background-color: #eee;
+}
 .sub-title {
-    margin-top: 30px;
-    text-align: center;
-    font-weight: normal;
-    border-bottom: 1px #000 solid;
+    font-weight: none;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px 0 0;
 }
-.sub-list {
-    text-align: center;
+
+.border {
+    margin-top: px;
+    width: 100px;
+    background: #000;
+    padding: 2px;
+    margin: 0 auto;
+}
+footer {
+    background: #eee;
+}
+
+/*Camera*/
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo img{
+    width: 20%;
+    min-width: 150px;
+}
+.sub-nav {
+    display: flex;
+    margin-right: 80px;
+}
+.sub-nav li {
     list-style: none;
+    margin: 0px 40px;
+    font-size: 1.125rem;
+    padding: 0 20pxpx;
+    white-space: nowrap;
 }
-/*旅行*/
-.travel-article {
+.sub-nav a {
+    color: #000;
+}
+.article-sub-title {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.article-sub-title h2 {
+    font-weight: none;
+    font-size: 20px;
+}
+.article-sub-title a {
+    color: #aaa;
+}
+.article-sub-title p {
+    color: #aaa;
+}
+
+.grid {
     display: grid;
-    grid-gap: 24px;
+    grid-column-gap: 35px;
+    grid-row-gap: 50px;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    margin-top: 100px;
+    padding: 40px;
+    max-width: 85%;
+    margin: 0px auto;
 }
+.item {
+    display: block;
+}
+
 .item p {
     text-align: center;
-    font-size: 13px;
+    color: #000;
+}
+.item a p:hover{
+    color: cadetblue;
+}
+.sub-border {
+    height: 1px;
+    background: #aaa;
+    margin: 40px auto 0px;
+    width: 50%;
+}
+.information {
+    font-size: 10px;
 }
 
 footer {
     text-align: center;
-    background: #333;
-    margin-top: 40px;
 }
 
-footer p {
-    font-size: 15px;
-    color: #fff;
-}
