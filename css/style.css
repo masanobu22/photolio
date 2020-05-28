@@ -93,6 +93,7 @@ footer {
     margin-top: 10px;
 }
 .logo img{
+    padding: 10px;
     width: 20%;
     min-width: 150px;
 }
@@ -161,3 +162,20 @@ footer {
     text-align: center;
 }
 
+/*Album*/
+.album {
+    width: 65%;
+    margin: 70px auto;
+    display: grid;
+    grid-row-gap: 70px;
+    grid-template-columns: repeat(1,1fr);
+}
+.album p{
+    text-align: center;
+}
+
+footer h3 {
+    font-weight: none;
+    font-family: serif;
+    padding: 30px;
+}
